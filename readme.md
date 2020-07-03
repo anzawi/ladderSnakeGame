@@ -106,6 +106,8 @@ $("#myGame").LadderSnake({
 ```js
 let myGame = $("#myGame").LadderSnake();
 const currentGameInfo = myGame.getToSave();
+
+console.log(currentGameInfo);
 ```
 `getToSave()` method returns an object contain game data
 the retruns values
